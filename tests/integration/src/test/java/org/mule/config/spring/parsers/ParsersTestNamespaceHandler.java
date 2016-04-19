@@ -21,13 +21,13 @@ import org.mule.runtime.config.spring.parsers.generic.ChildDefinitionParser;
 import org.mule.runtime.config.spring.parsers.generic.NamedDefinitionParser;
 import org.mule.runtime.config.spring.parsers.generic.OrphanDefinitionParser;
 import org.mule.runtime.config.spring.parsers.generic.ParentDefinitionParser;
+import org.mule.runtime.core.endpoint.EndpointURIEndpointBuilder;
 import org.mule.config.spring.parsers.specific.endpoint.TransportEndpointDefinitionParser;
 import org.mule.config.spring.parsers.specific.endpoint.TransportGlobalEndpointDefinitionParser;
 import org.mule.config.spring.parsers.specific.endpoint.support.AddressedEndpointDefinitionParser;
 import org.mule.config.spring.parsers.specific.endpoint.support.ChildAddressDefinitionParser;
 import org.mule.config.spring.parsers.specific.endpoint.support.ChildEndpointDefinitionParser;
 import org.mule.config.spring.parsers.specific.endpoint.support.OrphanEndpointDefinitionParser;
-import org.mule.endpoint.EndpointURIEndpointBuilder;
 
 /**
  * Registers a Bean Definition Parser for handling <code><parsers-test:...></code> elements.
