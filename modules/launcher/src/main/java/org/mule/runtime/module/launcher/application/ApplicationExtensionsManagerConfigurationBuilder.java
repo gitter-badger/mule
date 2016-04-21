@@ -86,7 +86,7 @@ public class ApplicationExtensionsManagerConfigurationBuilder extends AbstractCo
                 ExtensionDeclarer declarer = describer.describe(new DefaultDescribingContext());
                 final DefaultExtensionFactory extensionFactory = new DefaultExtensionFactory(new SpiServiceRegistry(), applicationPlugin.getArtifactClassLoader().getClassLoader());
                 final RuntimeExtensionModel extensionModel = extensionFactory.createFrom(declarer);
-                extensionManager.registerExtension(extensionModel);
+                //extensionManager.registerExtension(extensionModel);
             }
         }
     }
